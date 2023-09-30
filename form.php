@@ -14,7 +14,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
-    
+
 </head>
 
 <body>
@@ -106,18 +106,18 @@
         <form action="/cwhphp/28_Form.php" method="post">
 
             <div class="form-group">
-                <label for="name">Name</label>
+                <label for="name">Name:</label>
                 <input type="text" name="name" class="form-control" id="name" aria-describedby="emailHelp" required>
             </div>
 
             <div class="form-group">
-                <label for="pnumber">Phone Number</label>
+                <label for="pnumber">Phone Number:</label>
                 <input type="pnumber" name="email" class="form-control" id="email" aria-describedby="emailHelp" required>
                 <small id="emailHelp" class="form-text text-muted">We'll never share your number with anyone else.</small>
             </div>
 
             <div class="form-group">
-                <label for="email">Email</label>
+                <label for="email">Email:</label>
                 <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" required>
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
@@ -141,10 +141,10 @@
                     <option value="">4TH</option>
                 </select>
             </div>
-            
+
             <div class="multi-select-box">
                 <label for="email">Event </label>
-                <select class="multibox w-100" multiple data-live-search="true" >
+                <select class="multibox w-100" data-live-search="true">
                     <option value="">1ST</option>
                     <option value="">2ND</option>
                     <option value="">3RD</option>
@@ -154,13 +154,13 @@
 
             <div class="form-group">
                 <label for="desc">Do you want to share anything ?</label>
-                <textarea class="form-control" name="desc" id="desc" cols="30" rows="10"></textarea>
+                <textarea class="form-control" name="desc" id="desc" rows="5"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <input type="submit" name="submit" value="Proceed To Pay">
         </form>
     </div>
-    
+
     <script src="script.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
