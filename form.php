@@ -102,7 +102,7 @@
     ?>
 
     <div class="container mt-3">
-        <h1>INVENTOMANIA 10</h1>
+        <h1>Payment Slide</h1>
         <form action="/cwhphp/28_Form.php" method="post">
 
             <div class="form-group">
